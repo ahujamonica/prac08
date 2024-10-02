@@ -5,9 +5,10 @@ def check_odd_even(number):
     else:
         return "Odd"
 
-# Input a number
-num = int(input("Enter a number: "))
+# Hardcoded number
+num = 7  
 
 # Check if the number is odd or even and print the result
 result = check_odd_even(num)
 print(f"The number {num} is {result}.")
+
